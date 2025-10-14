@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title de dia  -->
+    <title>Tic-Tac-Toe Game</title>
+    <!-- isse apni css file connect ho  rahi hai html se -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- hide class game shuru hone se pehle winner section ko hide kr rhi hai -->
+    <div class="msg-container hide">
+      <p id="msg">Winner</p>
+      <button id="new-btn">New Game</button>
+    </div>
+    <main>
+      <!-- heading de di -->
+      <h1>Tic Tac Toe</h1>
+      <div class="container">
+        <div class="game">
+          <!-- sabse pehle button banagege kuki boxes pr click krne se kuch ho rha hai -->
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button id="reset-btn">Reset Game</button>
+    </main>
+    <!-- app.js ko connect kar dia index.html se -->
+    <script src="app.js"></script>
+  </body>
+</html>
+

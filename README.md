@@ -8,9 +8,7 @@ A simple and interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. 
 
 * 🧠 Automatic win/draw detection
 
-* 🎨 Clean and responsive UI
-
-* 📱 Works on desktop and mobile browsers
+* 🎨 Clean UI
 
 ## 🖱️ How to Play
 * Click on an empty cell to place your mark (X or O).
